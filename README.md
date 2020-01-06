@@ -40,7 +40,7 @@ With those last two features you get the ability to change the name of your shif
 _Please read over the limitations to ensure you know what this Flow cannot do!_
 
 **Configuration**  
-There are multiple parameters for this flow. Some of the default values may be different for the Google Calendar Flow but they mean the same thing.
+There are multiple parameters for this flow. Some of the default values may be different for the Google Calendar Flow but they mean the same thing. You can dig into the flow and change the location of the event, color, and alerts if you'd like as well (colors and alerts for Google Calendar in the Calendar settings at calendar.google.com)
 
 | Parameter Name       | Meaning     | Default Values (may be different if Google Calendar Flow) |
 | :------------- | :----------: | -----------: |
