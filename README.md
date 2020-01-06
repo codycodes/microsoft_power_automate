@@ -20,6 +20,8 @@ In order to setup these flows, you must download them from above and import them
 
 **Hint: you can copy this flow after you've created it if you want to have a separate calendar which syncs everyone's shifts in addition to a calendar that syncs just your shifts!**
 
+**Suggestion: use the day interval for the recurrence and you can specify the hours you want the flow to run! See limitations for details...**
+
 Requirements:
 - [x] Microsoft Power Automate account to use these flows!
 - [x] Either a Google or Microsoft account
@@ -56,6 +58,7 @@ There are multiple parameters for this flow. Some of the default values may be d
 | Get future time - End Date | Set the date in the future to start getting shifts and creating events | 3 Months |
 
 **Limitations**
+- [ ] Running the flow too frequently may end up not showing your shifts consistently; because this flow relies on deleting the previous events to avoid duplicating them, if you view your calendar within the window of its updates then you may not see your shift as events. If you use the day interval for recurrence (instead of the default 1 hour), you can set which hours it'll execute. I have mine running at 0, 5 (before I'm up), 12 (lunch), 20 (after work)
 - [ ] Microsoft Teams actions are currently in preview action and don't support pagination; the maximum amount of shifts you can grab at a time are 100. If you have trouble getting all the shifts you want, you'll need to tweak the begin and end date to a shorter interval. This is especially true if you have a larger team since this flow must iterate through all team member's shifts.
 - [ ] No current easy way via Power Automate to copy over the color of the shift to the calendar color. This isn't an option in create an event for Google Calendar or Outlook Calendar
 - [ ] Possible timeouts may occur while iterating through the shifts though I haven't personally experienced them
