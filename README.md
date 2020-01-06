@@ -59,6 +59,7 @@ There are multiple parameters for this flow. Some of the default values may be d
 - [ ] Microsoft Teams actions are currently in preview action and don't support pagination; the maximum amount of shifts you can grab at a time are 100. If you have trouble getting all the shifts you want, you'll need to tweak the begin and end date to a shorter interval. This is especially true if you have a larger team since this flow must iterate through all team member's shifts.
 - [ ] No current easy way via Power Automate to copy over the color of the shift to the calendar color. This isn't an option in create an event for Google Calendar or Outlook Calendar
 - [ ] Possible timeouts may occur while iterating through the shifts though I haven't personally experienced them
+- [ ] You must currently manually import the flow; I've submitted a request to put these flows in the Power Automate public gallery and hope they're approved so it's easier to setup!
 
 Any issues and please open one up on this repository; I can't guarantee that I'll be able to fix your issue, but please open one up anyways!
 
