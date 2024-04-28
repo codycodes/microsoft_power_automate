@@ -4,6 +4,7 @@ Automations I've created in Microsoft Flow/Power Automate
 ## Flows
 
 ### Copying shifts from Microsoft Shifts over a predefined time period to Outlook or Google Calendar (two different flows).
+> NOTE: ⚠️ This script has not been maintained and currently will no longer be maintained as I'm not currently using Team's shifts - for this reason the script exists mostly in an archival state and can serve as a base template in case you'd like to take a go at using Power Automate to achieve a team's calendar sync.
 
 **Links:**  
 [Shifts to Outlook Calendar](https://github.com/codycodes/microsoft_power_automate/releases/download/1.0/MicrosoftTeamsShifts-OutlookCalendarEvents_20200106003516.zip)  
